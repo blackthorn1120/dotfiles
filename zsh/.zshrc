@@ -11,3 +11,5 @@ zstyle :compinstall filename '/home/brennan/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
+# Start of custom config lines
+PS1='%n %~$ '
