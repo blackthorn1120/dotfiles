@@ -31,7 +31,7 @@ autoload -U compinit && compinit
 zinit cdreplay -q
 # History
 HISTSIZE=5000
-HISTDIR="${XDG_STATE_HOME:-${HOME}/local/state}/zsh"
+HISTDIR="${XDG_STATE_HOME:-${HOME}/.local/state}/zsh"
 if [ ! -d "$HISTDIR" ]; then
 	mkdir -p "$(dirname $HISTDIR)"
 fi
