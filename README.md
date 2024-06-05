@@ -9,6 +9,7 @@ the .zshrc correctly since it is in a non-standard location
 The following lines have been added to /etc/security/pam_env.conf
 to set global environment variables appropriately
     XDG_CONFIG_HOME DEFAULT=@{HOME}/dotfiles
+    VIMINIT DEFAULT=@{HOME}/dotfiles/nvim
 
 Currently Hyprland needs to be started with the path to the 
 config:
