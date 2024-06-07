@@ -10,3 +10,5 @@ The following lines have been added to /etc/security/pam_env.conf to set global 
 
 Currently Hyprland needs to be started with the path to the config:
     Hyprland -c ~/dotfiles/hypr/hyprland.conf
+
+zsh currently needs oh-my-posh installed for shell styling. The config for which is the tokyo-storm theme from the oh-my-posh Repository
