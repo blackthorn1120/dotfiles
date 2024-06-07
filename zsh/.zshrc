@@ -55,6 +55,8 @@ alias claer='clear'
 # Shell Integrations
 eval "$(fzf --zsh)"
 
+# Initialize Oh-my-posh
+eval "$(oh-my-posh init zsh --config $XDG_CONFIG_HOME/oh-my-posh/config.toml)"
 
 # Add the zsh_functions directory to fpath
 fpath+=${ZDOTDIR}/.zsh_functions
