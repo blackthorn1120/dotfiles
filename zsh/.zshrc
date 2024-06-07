@@ -59,6 +59,7 @@ alias la='ls -la --color'
 alias vim='nvim'
 alias vi='nvim'
 alias :q='exit'
+alias clera='clear'
 
 # Shell Integrations
 eval "$(fzf --zsh)"
