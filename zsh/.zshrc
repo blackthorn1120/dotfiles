@@ -60,6 +60,7 @@ alias vim='nvim'
 alias vi='nvim'
 alias :q='exit'
 alias clera='clear'
+alias claer='clear'
 
 # Shell Integrations
 eval "$(fzf --zsh)"
