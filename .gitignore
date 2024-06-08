@@ -2,3 +2,4 @@ zsh/.zcompdump
 gh/*
 lazygit/*
 dconf/*
+nvim/lazy-lock.json
